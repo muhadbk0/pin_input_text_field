@@ -189,6 +189,10 @@ class _PinInputTextFieldState extends State<PinInputTextField> {
 
         /// Hide the Cursor.
         cursorColor: Colors.transparent,
+        
+        // forked for adding bottom padding to push button above keyboard
+        scrollPadding: const EdgeInsets.only(bottom: 180),
+
 
         /// Hide the cursor.
         cursorWidth: 0.0,
